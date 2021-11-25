@@ -84,6 +84,11 @@ ul.tl li.tl-item .timestamp {
   font-size: 16px;
 }
 
+div.item-title a {
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (min-width: 800px) {
   .header p {
     margin: 30px 20%;
