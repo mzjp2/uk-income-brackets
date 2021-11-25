@@ -50,7 +50,7 @@ body {
 
 .history-tl-container ul.tl li.tl-item .item::before {
   position: absolute;
-  left: -60px;
+  left: -59px;
   top: -5px;
   content: " ";
   border: 8px solid rgba(255, 255, 255, 0.74);
