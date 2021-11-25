@@ -1,0 +1,80 @@
+body {
+  line-height: 1.3em;
+  min-width: 920px;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  position: relative;
+}
+
+.header h1 {
+  margin-top: 30px;
+  margin-left: 40%;
+}
+
+.header p {
+  margin: 30px 20%;
+}
+
+.history-tl-container {
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.history-tl-container ul.tl {
+  margin: 20px 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.history-tl-container ul.tl li.tl-item {
+  list-style: none;
+  margin: auto;
+  margin-left: 200px;
+  min-height: 50px;
+  /* background: rgba(200, 200, 200, 0.1); */
+  border-left: 1px dashed #86d6ff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.history-tl-container ul.tl li.tl-item:last-child {
+  border-left: 0;
+}
+
+.history-tl-container ul.tl li.tl-item::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 0.74);
+  border-radius: 500%;
+  background: #258cc7;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+
+.history-tl-container ul.tl li.tl-item:hover::before {
+  border-color: #258cc7;
+  transition: all 1000ms ease-in-out;
+}
+
+ul.tl li.tl-item .item-detail {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+}
+
+ul.tl li.tl-item .timestamp {
+  color: #8d8d8d;
+  position: absolute;
+  width: 100px;
+  left: -50%;
+  text-align: right;
+  font-size: 16px;
+}
