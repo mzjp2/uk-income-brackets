@@ -21,7 +21,7 @@ body {
 
 .history-tl-container {
   font-family: "Roboto", sans-serif;
-  width: 40%;
+  width: 60%;
   margin: auto;
   display: block;
   position: relative;
@@ -93,10 +93,16 @@ div.item-title a {
   .header p {
     margin: 30px 20%;
   }
+  .history-tl-container {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 600px) {
   ul.tl li.tl-item .timestamp {
     left: -170px;
+  }
+  .history-tl-container {
+    width: 40%;
   }
 }
